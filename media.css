@@ -67,7 +67,7 @@
                 .why-we .left , .why-we .right , .skills-box .right , .skills-box .left{
                                 width:100%;
                 }
-                .why-we .right .ico-box{
+                .why-we .right .ico-box , .skills-box .left .skill-box{
                                 width: 35%;
                                 font-size: 14px
                 }
