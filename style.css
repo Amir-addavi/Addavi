@@ -85,6 +85,7 @@ header .btn-menu {
                 border-radius: 1vh;
                 display: none;
                 cursor: pointer;
+                margin-left: 1rem;
 }
 
 header .login-reagester-btn{
