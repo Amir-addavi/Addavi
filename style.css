@@ -303,7 +303,7 @@ header .logo{
                 margin: 1vh 1rem;
                 flex-grow: 1;
                 transition: 0.3s;
-                width: 10rem;
+                width: fit-content;
 }
 .skills-box .left .skill-box{
                 background-color: #13172a;
@@ -316,7 +316,7 @@ header .logo{
                 border-radius: 1vh;
                 margin: 1vh 1rem;
                 flex-grow: 1;
-                width: 8rem;
+                width: fit-content;
                 transition: 0.3s;
 }
 .why-we .right .ico-box .support{
