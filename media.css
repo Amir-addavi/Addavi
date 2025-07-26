@@ -1,0 +1,111 @@
+@media only screen and (max-width: 1040px){
+                header .menu{
+                                width: 90%;
+                                border-bottom: 1px solid #ffffff00;
+                }
+                header .menu a{
+                                margin: 0 2%;
+                }
+                                .hero-box{
+                                                padding-top: 3rem;
+                                                width: 90%;
+                                }
+                                .hero-box h2{
+                                                width: 95%;
+                                                font-size: 33px;
+                                }
+                                .hero-box p{
+                                                width: 85%;
+                                                line-height: 2.5rem;
+                                }
+}
+@media only screen and (max-width: 740px){
+                                header .menu{
+                                                display: none;
+                                }
+                                header::after{
+                                                display: none;
+                                }
+
+                                header .btn-menu{
+                                                display: block;
+                                }
+                                header .login-reagester-btn{
+                                                position: absolute;
+                                                right: 14%;
+                                                width: fit-content;
+                                                padding: 0.4rem;
+                                }
+                                
+                                header{
+                                                background-color: #070b1fa8;
+                                                backdrop-filter: blur(16px);
+                                                width: 100%;
+                                                padding: 10px;
+                                                position: fixed;
+                                                top: 0;
+                                                z-index: 88;
+                                }
+                                .hero-box{
+                                                padding-top: 3rem;
+                                                width: 90%;
+                                }
+                                .hero-box h2{
+                                                width: 95%;
+                                                font-size: 33px;
+                                }
+                                .hero-box p{
+                                                width: 85%;
+                                                line-height: 2.5rem;
+                                }
+}
+@media only screen and (max-width: 880px){
+                .why-we {
+                                flex-direction: column;
+                                gap: 2rem;
+                }
+                .skills-box{
+                                flex-direction: column-reverse;
+                                gap: 2rem;    
+                }
+
+                .why-we .left , .why-we .right , .skills-box .right , .skills-box .left{
+                                width:100%;
+                }
+                .why-we .right .ico-box , .skills-box .left .skill-box{
+                                width: 30%;
+                                font-size: 14px
+                }
+                .why-we .left .title-we , .skills-box .right .title-skill{
+                                font-size: 16px;
+                }
+                .questions .title-qus{
+                                font-size: 35px;
+                }
+                .contact{
+                                flex-direction: column;
+                                gap: 3rem;
+                }
+                .contact .right , .contact .left{
+                                width: 100%;
+                }
+                .contact .right h2{
+                                font-size: 35px;
+                }
+                footer{
+                                width: 95%;
+                }
+                footer .container{
+                                flex-direction: column;
+                                gap: 1rem;
+                                justify-content: center;
+                }
+                footer .container .social{
+                                justify-content: center;  
+                                flex-wrap: wrap;
+                }
+                footer .caption{
+                                font-size: 13px;
+                }
+
+}
